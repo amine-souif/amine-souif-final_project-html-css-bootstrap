@@ -11945,6 +11945,7 @@ header .navbar .container-fluid .socials a :hover, header .navbar .container-sm 
   }
 }
 .contact {
+  background-color: #FAF9FB;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -12008,13 +12009,13 @@ header .navbar .container-fluid .socials a :hover, header .navbar .container-sm 
 }
 .contact .container {
   width: 50vw;
-  border-radius: 10px;
-  background-color: rgba(255, 255, 255, 0.568627451);
+  border-radius: 40px;
+  background-color: #ffffff;
   padding: 30px;
 }
 .contact .container form {
   padding: 3vh 5vw;
-  background-color: #fdf6f6;
+  background-color: #ffffff;
   border-radius: 40px;
 }
 
