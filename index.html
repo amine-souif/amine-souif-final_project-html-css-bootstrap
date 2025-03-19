@@ -9,9 +9,9 @@
 </head>
 
 <body>
-    <header>
-        <nav class="navbar  navbar-expand-lg bg-body-tertiary ">
-            <div class="container-fluid ">
+    <header class="">
+        <nav class="navbar  navbar-expand-lg bg-body-tertiary">
+            <div class="container-fluid">
                 <h1 class="logo">EasyFolio</h1>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                     data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
@@ -24,16 +24,16 @@
                             <a class="nav-link" href="#home">Home</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="./src/sass/modules/home/sections/_about.scss">About</a>
+                            <a class="nav-link" href="#about">About</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="./src/sass/modules/home/sections/_resume.scss">Resume</a>
+                            <a class="nav-link" href="#resume">Resume</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="./src/sass/modules/home/sections/_portfolio.scss">Portfolio</a>
+                            <a class="nav-link" href="#portfolio">Portfolio</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="./src/sass/modules/home/sections/_services.scss">Services</a>
+                            <a class="nav-link" href="#services">Services</a>
                         </li>
                         <li class="nav-item dropdown">
                             <a class="nav-link dropdown-toggle " href="#" role="button" data-bs-toggle="dropdown"
@@ -61,7 +61,7 @@
                             </ul>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="./src/sass/modules/home/sections/_contact.scss">Contact</a>
+                            <a class="nav-link" href="#contact">Contact</a>
                         </li>
                     </ul>
                 </div>
@@ -74,10 +74,8 @@
             </div>
         </nav>
     </header>
-    <home id="home">
-
-
-
+    <!-- this is about -->
+    <section class="home" id="home">
         <div class="container py-6">
             <div class="row flex-lg-row
                 align-items-center g-5">
@@ -97,34 +95,708 @@
                     </div>
 
                     <div class="lc-block d-grid gap-2 d-md-flex justify-content-md-start"><a
-                            class="btn btn-primary px-4 me-md-2" href="#" role="button">View my work</a>
-                        <a class="btn btn-outline-secondary px-4" href="#" role="button">Let's Connect</a>
+                            class="btn btn1 orang_bg px-4 me-md-2" href="#" role="button">View my work</a>
+                        <a class="btn btn2 btn-outline-secondary px-4" href="#" role="button">Let's Connect</a>
                     </div>
-                    <div class="l-home d-flex align-items-center justify-center">
+                    <div class="l-home d-flex align-items-baseline gap-5 pt-5">
                         <div class="ch-l-h">
-                            <h2>5+</h2>
+                            <h2 class="fw-bold">5+</h2>
                             <span>Years Experience</span>
                         </div>
-                        <div class="">
-                            <h2>100+</h2>
+                        <div class="ch-l-h">
+                            <h2 class="fw-bold">100+</h2>
                             <span>Projects Completed</span>
                         </div>
-                        <div class="">
-                            <h2>50+</h2>
+                        <div class="ch-l-h">
+                            <h2 class="fw-bold">50+</h2>
                             <span>Happy Clients</span>
                         </div>
                     </div>
                 </div>
                 <div class="col-10 mx-auto col-sm-8 col-lg-6">
-                    <img src="./assets/img/profile/profile-1.webp"
-                        class="d-block mx-lg-auto img-fluid" alt="profile-1" loading="lazy">
+                    <img src="./assets/img/profile/profile-1.webp" class=" mx-lg-auto img-fluid" alt="profile-1"
+                        loading="lazy">
                 </div>
             </div>
         </div>
+    </section>
+    <!--this is about -->
+    <section class="about" id="about">
+        <div class="f-about">
+            <div class="t-about">
+                <h1>About</h1>
+                <svg width="200" viewBox="0 0 200 20" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M 0,10 C 40,0 60,20 100,10 C 140,0 160,20 200,10" fill="non" stroke="currentColor"
+                        stroke-width="2"></path>
+                </svg>
+                <p>Quis autem vel eum iure reprehendrit qui in ea voluptate velit esse quam nihil molestiae consequatur
+                    vel
+                    illum qui dolorem</p>
+            </div>
+        </div>
+        <div class="s-about">
+            <img src="./assets/img/profile/profile-square-2.webp" alt="profile-square-2">
+            <div class="child-s-a">
+                <h5>About Me</h5>
+                <h2>UI/UX Designer & Web Developer</h2>
+                <p>Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur
+                    magni dolores eos qui ratione voluptatem sequi nesciunt.</p>
+                <p class="fw-bold">Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet</p>
+                <div class="info">
+                    <div class="f-child-info">
+                        <div class="t-info">
+                            <span>Name</span>
+                            <span class="fw-bold">Eliot Johnson
+                            </span>
+                        </div>
+                        <div class="t-info">
+                            <span>Age</span>
+                            <span class="fw-bold">26 Years
+                            </span>
+                        </div>
+                        <div class="t-info">
+                            <span>Occupation</span>
+                            <span class="fw-bold">Lorem Engineer
+                            </span>
+                        </div>
+                    </div>
+                    <div class="s-child-info">
+                        <div class="t-info">
+                            <span>PHONE</span>
+                            <span class="fw-bold">+123 456 7890
+                            </span>
+                        </div>
+                        <div class="t-info">
+                            <span>Email</span>
+                            <span class="fw-bold">email@example.com
+                            </span>
+                        </div>
+                        <div class="t-info">
+                            <span>Nationality</span>
+                            <span class="fw-bold">Ipsum
+                            </span>
+                        </div>
+                    </div>
+                </div>
+                <div class="signature d-flex align-items-center justify-center gap-lg-5">
+                    <img src="./assets/img/misc/signature-1.webp" alt="signature-1">
+                    <div class="t-sign">
+                        <h3>Eliot Johnson</h3>
+                        <span>Adipiscing Elit, Lorem Ipsum</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- this is progress -->
+    <section class="parent-progress">
+        <div class="child-p-p">
+            <div>
+                <h4>HTML</h4>
+                <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem.</p>
+                <span class="text-end d-block">90%</span>
+                <div class="progress" role="progressbar" aria-label="Example with label" aria-valuenow="90"
+                    aria-valuemin="0" aria-valuemax="100">
+                    <div class="progress-bar" style="width: 90%"></div>
+                </div>
+            </div>
+        </div>
+        <div class="child-p-p">
+            <div>
+                <h4>CSS</h4>
+                <p>Nemo enim ipsam voluptatem quia voluptas sit aspernatur.</p>
+                <span class="text-end d-block">90%</span>
+                <div class="progress" role="progressbar" aria-label="Example with label" aria-valuenow="90"
+                    aria-valuemin="0" aria-valuemax="100">
+                    <div class="progress-bar" style="width: 90%">90%</div>
+                </div>
+            </div>
+        </div>
+        <div class="child-p-p">
+            <div>
+                <h4>JavaScript</h4>
+                <p>Neque porro quisquam est qui dolorem ipsum quia dolor.</p>
+                <span class="text-end d-block">90%</span>
+                <div class="progress" role="progressbar" aria-label="Example with label" aria-valuenow="80"
+                    aria-valuemin="0" aria-valuemax="100">
+                    <div class="progress-bar" style="width: 80%">80%</div>
+                </div>
+            </div>
+        </div>
+        <div class="child-p-p">
+            <div>
+                <h4>Photoshop</h4>
+                <p>Quis autem vel eum iure reprehenderit qui in ea voluptate.</p>
+                <span class="text-end d-block">90%</span>
+                <div class="progress" role="progressbar" aria-label="Example with label" aria-valuenow="55"
+                    aria-valuemin="0" aria-valuemax="100">
+                    <div class="progress-bar" style="width: 55%">55%</div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- this is resume -->
+    <section class="resume" id="resume">
+        <div class="f-resume">
+            <div class="t-resume">
+                <h1>Resume</h1>
+                <svg width="200" viewBox="0 0 200 20" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M 0,10 C 40,0 60,20 100,10 C 140,0 160,20 200,10" fill="non" stroke="currentColor"
+                        stroke-width="2"></path>
+                </svg>
+                <p>Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur
+                    vel illum qui dolorem</p>
+            </div>
+        </div>
+        <div class="s-resume">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="card">
+                            <div class="card-body">
+                                <h3 class="card-title fw-bold">Work Experince</h3>
+                                <p>Maecenas tempus tellus eget condimentum rhoncus sem quam semper libero sit amet
+                                    adipiscing sem neque sed ipsum.</p>
+                                <div id="content">
+                                    <div class="timeline">
+                                        <div class="event" data-date=" Etiam Industries
+                                        ">
+                                            <h3 class="fw-bold">Project Lead
+                                            </h3>
+                                            <p>Quia nobis sequi est occaecati aut. Repudiandae et iusto quae reiciendis
+                                                et quis Eius vel ratione eius unde vitae rerum voluptates asperiores
+                                                voluptatem Earum molestiae consequatur neque etlon sader mart dila
+                                            </p>
+                                        </div>
+                                        <div class="event list" data-date="Nullam Corp
+                                        ">
+                                            <div class="ul">
+
+                                                <h3 class="fw-bold">Senior graphic design specialist
+                                                </h3>
+                                                <p>Curabitur ullamcorper ultricies nisi nam eget dui etiam rhoncus
+                                                    maecenas tempus.
+                                                </p>
+                                                <ul>
+                                                    <li>Lead in the design, development, and implementation of the
+                                                        graphic, layout, and production communication materials</li>
+                                                    <li>Delegate tasks to the 7 members of the design team and provide
+                                                        counsel on all aspects of the project.</li>
+                                                    <li>Supervise the assessment of all graphic materials in order to
+                                                        ensure quality and accuracy of the design</li>
+                                                    <li>Oversee the efficient use of production project budgets ranging
+                                                        from $2,000 - $25,000</li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                        <div class="event" data-date="Stepping Stone Ltd.
+                                        ">
+                                            <h3 class="fw-bold">Graphic design specialist
+                                            </h3>
+                                            <p>Curabitur ullamcorper ultricies nisi nam eget dui etiam rhoncus maecenas
+                                                tempus.
+
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="card">
+                            <div class="card-body">
+                                <h3 class="card-title fw-bold">My Education
+                                </h3>
+                                <p>Maecenas tempus tellus eget condimentum rhoncus sem quam semper libero sit amet
+                                    adipiscing.
+
+                                </p>
+                                <div id="content">
+                                    <ul class="timeline">
+                                        <li class="event" data-date=" Etiam Industries
+                                        " data-date=" Vestibulum University
+                                        ">
+                                            <h3 class="fw-bold">Diploma in Consequat
+                                            </h3>
+                                            <p>Curabitur ullamcorper ultricies nisi nam eget dui etiam rhoncus maecenas
+                                                tempus.
 
 
+                                            </p>
+                                        </li>
+                                        <li class="event" data-date="Nullam Corp
+">
+                                            <h3 class="fw-bold">Master of Fine Arts & Graphic Design
+                                            </h3>
+                                            <p>Curabitur ullamcorper ultricies nisi nam eget dui etiam rhoncus maecenas
+                                                tempus.
 
-    </home>
+                                            </p>
+                                        </li>
+                                        <li class="event" data-date="Vestibulum University
+                                        ">
+                                            <h3 class="fw-bold">Bachelor of Fine Arts & Graphic Design
+                                            </h3>
+                                            <p>Curabitur ullamcorper ultricies nisi nam eget dui etiam rhoncus maecenas
+                                                tempus.
+
+                                            </p>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- this is portfolio -->
+    <section class="portfolio" id="portfolio">
+        <div class="t-portfolio">
+            <h1>Portfolio</h1>
+            <svg width="200" viewBox="0 0 200 20" xmlns="http://www.w3.org/2000/svg">
+                <path d="M 0,10 C 40,0 60,20 100,10 C 140,0 160,20 200,10" fill="non" stroke="currentColor"
+                    stroke-width="2"></path>
+            </svg>
+            <p>Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur
+                vel illum qui dolorem</p>
+        </div>
+        <div class="tab-wrap">
+
+            <input type="radio" id="tab4" name="tabGroup2" class="tab" checked>
+            <label for="tab4">All Work</label>
+
+            <input type="radio" id="tab5" name="tabGroup2" class="tab">
+            <label for="tab5">Web Design</label>
+
+            <input type="radio" id="tab6" name="tabGroup2" class="tab">
+            <label for="tab6">Graphic</label>
+
+            <input type="radio" id="tab7" name="tabGroup2" class="tab">
+            <label for="tab7">Motion</label>
+
+            <input type="radio" id="tab8" name="tabGroup2" class="tab">
+            <label for="tab8">Branding</label>
+
+            <div class="tab__content d-flex">
+                <div class="tab__content d-flex align-items-baseline justify-center">
+                    <div class="">
+                        <div class="">
+                            <img src="./assets/img/portfolio/portfolio-1.webp" alt="">
+                            <div>
+                                <span>WEB DESIGN</span>
+                                <h3>Modern Dashboard interface Interface</h3>
+                                <p>Maecenas faucibus mollis interdum sed posuere consectetur est at lobortis</p>
+                            </div>
+                        </div>
+                        <div>
+                            <img src="./assets/img/portfolio/portfolio-2.webp" alt="">
+                            <div>
+                                <span>WEB DESIGN</span>
+                                <h3>E-commerce platform</h3>
+                                <p>Nullam id dolor id nibh ultricies vehicula ut id elit</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="">
+                        <img src="./assets/img/portfolio/portfolio-10.webp" alt="">
+                        <div>
+                            <span>WEB DESIGN</span>
+                            <h3>Modern Dashboard interface Interface</h3>
+                            <p>Maecenas faucibus mollis interdum sed posuere consectetur est at lobortis</p>
+                        </div>
+                    </div>
+                    <div class="d-grid">
+                        <div>
+                            <img src="./assets/img/portfolio/portfolio-11.webp" alt="">
+                            <div>
+                                <span>WEB DESIGN</span>
+                                <h3>E-commerce platform</h3>
+                                <p>Nullam id dolor id nibh ultricies vehicula ut id elit</p>
+                            </div>
+                        </div>
+                        <div class="">
+                            <img src="./assets/img/portfolio/portfolio-7.webp" alt="">
+                            <div>
+                                <span>WEB DESIGN</span>
+                                <h3>Modern Dashboard interface Interface</h3>
+                                <p>Maecenas faucibus mollis interdum sed posuere consectetur est at lobortis</p>
+                            </div>
+                        </div>
+                        <div>
+                            <img src="./assets/img/portfolio/portfolio-4.webp" alt="">
+                            <div>
+                                <span>WEB DESIGN</span>
+                                <h3>E-commerce platform</h3>
+                                <p>Nullam id dolor id nibh ultricies vehicula ut id elit</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="tab__content d-flex align-items-baseline justify-center">
+                <div class="">
+                    <img src="./assets/img/portfolio/portfolio-1.webp" alt="">
+                    <div>
+                        <span>WEB DESIGN</span>
+                        <h3>Modern Dashboard interface Interface</h3>
+                        <p>Maecenas faucibus mollis interdum sed posuere consectetur est at lobortis</p>
+                    </div>
+                </div>
+                <div>
+                    <img src="./assets/img/portfolio/portfolio-2.webp" alt="">
+                    <div>
+                        <span>WEB DESIGN</span>
+                        <h3>E-commerce platform</h3>
+                        <p>Nullam id dolor id nibh ultricies vehicula ut id elit</p>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="tab__content d-flex align-items-baseline justify-center">
+                <div class="">
+                    <img src="./assets/img/portfolio/portfolio-10.webp" alt="">
+                    <div>
+                        <span>WEB DESIGN</span>
+                        <h3>Modern Dashboard interface Interface</h3>
+                        <p>Maecenas faucibus mollis interdum sed posuere consectetur est at lobortis</p>
+                    </div>
+                </div>
+                <div>
+                    <img src="./assets/img/portfolio/portfolio-11.webp" alt="">
+                    <div>
+                        <span>WEB DESIGN</span>
+                        <h3>E-commerce platform</h3>
+                        <p>Nullam id dolor id nibh ultricies vehicula ut id elit</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="tab__content d-flex align-items-baseline justify-center">
+                <div class="">
+                    <img src="./assets/img/portfolio/portfolio-7.webp" alt="">
+                    <div>
+                        <span>WEB DESIGN</span>
+                        <h3>Modern Dashboard interface Interface</h3>
+                        <p>Maecenas faucibus mollis interdum sed posuere consectetur est at lobortis</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="tab__content">
+                <div>
+                    <img src="./assets/img/portfolio/portfolio-4.webp" alt="">
+                    <div>
+                        <span>WEB DESIGN</span>
+                        <h3>E-commerce platform</h3>
+                        <p>Nullam id dolor id nibh ultricies vehicula ut id elit</p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+    <!-- this is Testimonials -->
+    <section class="testimonials" id="testimonials">
+        <div class="t-testimonials">
+            <h1>Testimonials</h1>
+            <svg width="200" viewBox="0 0 200 20" xmlns="http://www.w3.org/2000/svg">
+                <path d="M 0,10 C 40,0 60,20 100,10 C 140,0 160,20 200,10" fill="non" stroke="currentColor"
+                    stroke-width="2"></path>
+            </svg>
+            <p>Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur vel
+                illum qui dolorem</p>
+        </div>
+        <div class="carousel-slide">
+            <div class="h-t container">
+            </div>
+            <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active ">
+                        <div class="d-flex">
+                            <div class="d-flex flex-column align-items-lg-baseline justify-content-center">
+                                <p>
+                                    Proin iaculis purus consequat sem cure digni ssim donec porttitora entum suscipit
+                                    rhoncus.
+                                    Accusantium quam, ultricies eget id, aliquam eget nibh et. Maecen aliquam, risus at
+                                    semper.
+                                </p>
+                                <p>
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. At hic iusto officiis
+                                    rerum, incidunt fugiat voluptatibus unde labore sit dignissimos dolore aliquid
+                                    suscipit ea corrupti? Non ab pariatur aspernatur natus.
+                                </p>
+                                <img src="./assets/img/person/person-f-5.webp" class="img-p" alt="testimonials-1">
+                                <h3>Saul Goodman</h3>
+                                <span>Store Owner</span>
+                            </div>
+                            <div><img class="img-r" src="./assets/img/person/person-f-5.webp" alt="person-f-5"></div>
+                        </div>
+                    </div>
+                    <div class="carousel-item active ">
+                        <div class="d-flex">
+
+                            <div class="d-flex flex-column align-items-lg-baseline justify-content-center">
+                                <p>
+                                    Proin iaculis purus consequat sem cure digni ssim donec porttitora entum suscipit
+                                    rhoncus.
+                                    Accusantium quam, ultricies eget id, aliquam eget nibh et. Maecen aliquam, risus at
+                                    semper.
+                                </p>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt qui a libero ipsum
+                                    eos odio in sapiente minima fugit! Ratione incidunt earum dolorum quia numquam,
+                                    harum nobis ex dolores magni?</p>
+                                <img src="./assets/img/person/person-m-7.webp" class="img-p" alt="testimonials-1">
+                                <h3>Saul Goodman</h3>
+                                <span>Store Owner</span>
+                            </div>
+                            <div><img class="img-r" src="./assets/img/person/person-m-7.webp" alt="person-m-7"></div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="d-flex">
+                            <div class="d-flex flex-column align-items-lg-baseline justify-content-center">
+                                <p>
+                                    Export tempor illum tamen malis malis eram quae irure esse labore quem cillum quid
+                                    cillum
+                                    eram malis quorum velit fore eram velit sunt aliqua noster fugiat irure amet legam
+                                    anim
+                                    culpa.
+                                </p>
+
+                                <img src="./assets/img/person/person-f-8.webp" class="img-p" alt="testimonials-2">
+                                <h3>Sara Wilsson</h3>
+                                <span>Store Owner</span>
+
+                            </div>
+                            <div><img class="img-r" src="./assets/img/person/person-f-8.webp" alt="person-f-8"></div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="d-flex align-items-center">
+                            <div class="d-flex flex-column align-items-lg-baseline justify-content-center">
+                                <p>
+                                    Enim nisi quem export duis labore cillum quae magna enim sint quorum nulla quem
+                                    veniam
+                                    duis
+                                    minim tempor labore quem eram duis noster aute amet eram fore quis sint minim.
+                                </p>
+                                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eum, consequatur aperiam
+                                    doloremque amet voluptatem perspiciatis libero assumenda minus qui, eius ipsam et
+                                    alias, quo eaque odio soluta quasi facere aspernatur.</p>
+                                <img src="./assets/img/person/person-m-9.webp" class="img-p" alt="testimonials-3">
+                                <h3>Jena Karlis</h3>
+                                <span>Store Owner</span>
+                            </div>
+                            <div><img class="img-r" src="./assets/img/person/person-m-9.webp" alt="person-f-9"></div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="d-flex">
+
+                            <div class="d-flex flex-column align-items-lg-baseline justify-content-center">
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio ducimus
+                                    laboriosam esse vitae quia. Atque reiciendis dolore odio culpa aliquam excepturi
+                                    voluptatum eum, voluptatibus vitae tempore iusto magnam laborum quos.
+                                </p>
+                                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quidem dolor sed minus id
+                                    delectus facere sit similique nostrum eos aut, minima voluptatum voluptas animi
+                                    consequuntur vitae totam, quaerat ad fugiat.</p>
+                                <img src="./assets/img/person/person-f-10.webp" class="img-p" alt="testimonials-4">
+                                <h3>Jena Karlis</h3>
+                                <span>Store Owner</span>
+                            </div>
+                            <div><img class="img-r" src="./assets/img/person/person-f-10.webp" alt="person-f-10"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- this is services -->
+    <section class="services" id="services">
+        <div class="t-services">
+            <h1>Services</h1>
+            <svg width="200" viewBox="0 0 200 20" xmlns="http://www.w3.org/2000/svg">
+                <path d="M 0,10 C 40,0 60,20 100,10 C 140,0 160,20 200,10" fill="non" stroke="currentColor"
+                    stroke-width="2"></path>
+            </svg>
+            <p>Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur vel
+                illum qui dolorem</p>
+        </div>
+        <div class="ser container mt-4 d-lg-flex align-items-center gap-5">
+            <div class="left-ser">
+                <h2 class="fw-bold">Consectetur adipiscing elit sed do eiusmod tempor</h2>
+                <p>Nulla metus metus ullamcorper vel tincidunt sed euismod nibh volutpat velit class aptent taciti sociosqu ad litora.</p>
+                <button type="button" class="btn btn-outline-warning">See all Services</button>
+            </div>
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="card p-3 shadow">
+                        <div class="card-body">
+                            <i class="bi bi-activity text-warning"></i> <!-- Icon -->
+                            <h5 class="card-title">Eget nulla facilisi etiam</h5>
+                            <p class="card-text">Vestibulum morbi blandit cursus risus at ultrices mi tempus imperdiet nulla.</p>
+                        </div>
+                    </div>
+                </div>
+        
+                <div class="col-md-6">
+                    <div class="card p-3 shadow">
+                        <div class="card-body">
+                            <i class="bi bi-easel text-warning"></i> <!-- Icon -->
+                            <h5 class="card-title">Duis aute irure dolor</h5>
+                            <p class="card-text">Auctor neque vitae tempus quam pellentesque nec nam aliquam sem et tortor.</p>
+                        </div>
+                    </div>
+                </div>
+        
+                <div class="col-md-6 mt-3">
+                    <div class="card p-3 shadow">
+                        <div class="card-body">
+                            <i class="bi bi-broadcast text-warning"></i> <!-- Icon -->
+                            <h5 class="card-title">Excepteur sint occaecat</h5>
+                            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                        </div>
+                    </div>
+                </div>
+        
+                <div class="col-md-6 mt-3">
+                    <div class="card p-3 shadow">
+                        <div class="card-body">
+                            <i class="bi bi-bounding-box text-warning"></i>
+                            <h5 class="card-title">Tempor incididunt ut labore</h5>
+                            <p class="card-text">Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- this is Questions -->
+    <section class="questions">
+        <div class="t-questions">
+            <h1>Frequently Asked Questions</h1>
+            <svg width="200" viewBox="0 0 200 20" xmlns="http://www.w3.org/2000/svg">
+                <path d="M 0,10 C 40,0 60,20 100,10 C 140,0 160,20 200,10" fill="non" stroke="currentColor"
+                    stroke-width="2"></path>
+            </svg>
+            <p>Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur vel
+                illum qui dolorem</p>
+        </div>
+        <div class="questions-asked">
+            <div class="accordion" id="accordionPanelsStayOpenExample">
+                <div class="accordion-item">
+                    <h3 class="accordion-header border-0">
+                        <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true"
+                            aria-controls="panelsStayOpen-collapseOne">
+                            Dolor sit amet consectetur adipiscing elit pellentesque?
+                        </button>
+                    </h3>
+                    <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show">
+                        <div class="accordion-body">
+                            <p>Eleifend mi in nulla posuere sollicitudin aliquam ultrices sagittis orci. Faucibus pulvinar elementum integer enim. Sem nulla pharetra diam sit amet nisl suscipit. Rutrum tellus pellentesque eu tincidunt. Lectus urna duis convallis convallis tellus. Urna molestie at elementum eu facilisis sed odio morbi quis.</p>
+                        </div>
+                    </div>
+                </div>
+                <br>
+                <div class="accordion-item">
+                    <h3 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false"
+                            aria-controls="panelsStayOpen-collapseTwo">
+                            Feugiat scelerisque varius morbi enim nunc faucibus?
+                        </button>
+                    </h3>
+                    <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse">
+                        <div class="accordion-body">
+                            <p>Dolor sit amet consectetur adipiscing elit pellentesque habitant morbi. Id interdum velit
+                                laoreet id donec ultrices. Fringilla phasellus faucibus scelerisque eleifend donec
+                                pretium. Est pellentesque elit ullamcorper dignissim. Mauris ultrices eros in cursus
+                                turpis massa tincidunt dui.</p>
+                        </div>
+                    </div>
+                </div>
+                <br>
+                <div class="accordion-item">
+                    <h3 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false"
+                            aria-controls="panelsStayOpen-collapseThree">
+                            Dolor sit amet consectetur adipiscing elit pellentesque?
+                        </button>
+                    </h3>
+                    <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse">
+                        <div class="accordion-body">
+                            <p>Eleifend mi in nulla posuere sollicitudin aliquam ultrices sagittis orci. Faucibus
+                                pulvinar elementum integer enim. Sem nulla pharetra diam sit amet nisl suscipit. Rutrum
+                                tellus pellentesque eu tincidunt. Lectus urna duis convallis convallis tellus. Urna
+                                molestie at elementum eu facilisis sed odio morbi quis</p>
+                        </div>
+                    </div>
+                </div>
+                <br>
+                <div class="accordion-item">
+                    <h3 class="accordion-header">
+                        <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#panelsStayOpen-collapsefoor" aria-expanded="true"
+                            aria-controls="panelsStayOpen-collapsefoor">
+                            Ac odio tempor orci dapibus. Aliquam eleifend mi in nulla?
+                        </button>
+                    </h3>
+                    <div id="panelsStayOpen-collapsefoor" class="accordion-collapse collapse show">
+                        <div class="accordion-body">
+                            <p>Dolor sit amet consectetur adipiscing elit pellentesque habitant morbi. Id interdum velit laoreet id donec ultrices. Fringilla phasellus faucibus scelerisque eleifend donec pretium. Est pellentesque elit ullamcorper dignissim. Mauris ultrices eros in cursus turpis massa tincidunt dui.</p>
+                        </div>
+                    </div>
+                </div>
+                <br>
+                <div class="accordion-item">
+                    <h3 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#panelsStayOpen-collapsefive" aria-expanded="false"
+                            aria-controls="panelsStayOpen-collapsefive">
+                            Tempus quam pellentesque nec nam aliquam sem et tortor? </button>
+                    </h3>
+                    <div id="panelsStayOpen-collapsefive" class="accordion-collapse collapse">
+                        <div class="accordion-body">
+                            <p>Molestie a iaculis at erat pellentesque adipiscing commodo. Dignissim suspendisse in est
+                                ante in. Nunc vel risus commodo viverra maecenas accumsan. Sit amet nisl suscipit
+                                adipiscing bibendum est. Purus gravida quis blandit turpis cursus in</p>
+                        </div>
+                    </div>
+                </div>
+                <br>
+                <div class="accordion-item">
+                    <h3 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#panelsStayOpen-collapsesixe" aria-expanded="false"
+                            aria-controls="panelsStayOpen-collapsesixe">
+                            Perspiciatis quod quo quos nulla quo illum ullam?</button>
+                    </h3>
+                    <div id="panelsStayOpen-collapsesixe" class="accordion-collapse collapse">
+                        <div class="accordion-body">
+                            <p>Enim ea facilis quaerat voluptas quidem et dolorem. Quis et consequatur non sed in suscipit sequi. Distinctio ipsam dolore et.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- this is scroll-top -->
+    <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center active"><i class="bi bi-arrow-up-short"></i></a>
+
     <script src="./node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
 </body>
 

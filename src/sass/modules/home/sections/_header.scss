@@ -5,14 +5,18 @@
 }
 header{
     padding: 3vh 5vw;
+    position: fixed;
+    z-index: 999;
     .navbar{
+        width: 90vw;
         background-color: #FFFFFF;
         border-radius: 50px;
         box-shadow: 0px 2px 15px #0000001a;
         .container-fluid{
             gap: 10vw;
             .logo{
-                font-family: sans-serif;
+                padding: 2vh 2vw;
+                font-weight: 100;
             }
             .collapse :hover{
                 color: #E87532;
@@ -27,4 +31,12 @@ header{
             }
         }
     }
+    @media (max-width:480px) {
+        .socials{
+            a{
+                display: none;
+            }
+        }
+    }
+    
 }

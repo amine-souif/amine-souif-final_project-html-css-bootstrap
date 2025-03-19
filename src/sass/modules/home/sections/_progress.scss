@@ -1,0 +1,26 @@
+.parent-progress{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2vw;
+    padding: 10vh 0;
+    .child-p-p{
+        width: 23vw;
+        border-radius: 8px;
+        box-shadow: 0 0 20px rgba(0, 0, 0, 0.05);
+        padding: 1vh 1vw;
+        div{
+            .progress ::-webkit-progress-value{
+                fill: chocolate;
+            }
+        }
+    }
+}
+@media (max-width:480px) {
+    .parent-progress{
+        flex-direction: column;
+        .child-p-p{
+            width: 100%;
+        }
+    }
+}

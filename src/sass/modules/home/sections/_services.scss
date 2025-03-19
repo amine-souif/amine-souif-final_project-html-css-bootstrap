@@ -1,0 +1,13 @@
+.services {
+    .t-services {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        padding: 5vh 0;
+        svg {
+            color: #F1B796;
+        }
+    }
+}
