@@ -74,3 +74,11 @@
         }
     }
 }
+@media (max-width:480px) {
+    .contact{
+        flex-direction: column;
+    }
+    form{
+        width: 70vw;
+    }
+}

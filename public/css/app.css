@@ -12018,6 +12018,14 @@ header .navbar .container-fluid .socials a :hover, header .navbar .container-sm 
   border-radius: 40px;
 }
 
+@media (max-width: 480px) {
+  .contact {
+    flex-direction: column;
+  }
+  form {
+    width: 70vw;
+  }
+}
 .home .container {
   padding: 15vh 0;
 }
