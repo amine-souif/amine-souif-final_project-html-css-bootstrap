@@ -11944,6 +11944,80 @@ header .navbar .container-fluid .socials a :hover, header .navbar .container-sm 
     width: 100%;
   }
 }
+.contact {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5vw;
+  padding: 15vh 0;
+}
+.contact .content {
+  display: flex;
+  flex-direction: column;
+  align-items: baseline;
+  justify-content: center;
+  gap: 8vh;
+  padding: 0 5vw;
+  font-weight: bold;
+}
+.contact .content .section-category {
+  width: 50%;
+}
+.contact .content .contact-info {
+  display: flex;
+  flex-direction: column;
+  gap: 5vh;
+}
+.contact .content .contact-info i {
+  gap: 4vh;
+  color: #E87559;
+}
+.contact .content .contact-info a {
+  text-decoration: none;
+  color: black;
+}
+.contact input,
+.contact select,
+.contact textarea {
+  width: 80%;
+  /* Full width */
+  padding: 12px;
+  /* Some padding */
+  border: 1px solid #ccc;
+  /* Gray border */
+  border-radius: 4px;
+  /* Rounded borders */
+  box-sizing: border-box;
+  /* Make sure that padding and width stays in place */
+  margin-top: 6px;
+  /* Add a top margin */
+  margin-bottom: 16px;
+  /* Bottom margin */
+  resize: vertical;
+}
+.contact input[type=submit] {
+  background-color: orangered;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+}
+.contact input[type=submit]:hover {
+  background-color: rgba(255, 68, 0, 0.404);
+}
+.contact .container {
+  width: 50vw;
+  border-radius: 10px;
+  background-color: rgba(255, 255, 255, 0.568627451);
+  padding: 30px;
+}
+.contact .container form {
+  padding: 3vh 5vw;
+  background-color: #fdf6f6;
+  border-radius: 40px;
+}
+
 .home .container {
   padding: 15vh 0;
 }
@@ -12233,6 +12307,21 @@ header .navbar .container-fluid .socials a :hover, header .navbar .container-sm 
 }
 .services .t-services svg {
   color: #F1B796;
+}
+
+footer .socials {
+  border: 1px solid;
+  border-radius: 50%;
+  width: 3vw;
+}
+footer .socials :hover {
+  border-color: orange;
+}
+footer .link_social {
+  color: gray;
+}
+footer .link_social:hover {
+  color: orange;
 }
 
 .parent-progress {

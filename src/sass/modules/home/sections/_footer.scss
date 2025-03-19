@@ -1,0 +1,16 @@
+footer{
+    .socials{
+        border: 1px solid ;
+        border-radius: 50%;
+        width: 3vw;
+    }
+    .socials :hover{
+        border-color: orange ;
+    }
+    .link_social{
+        color: gray;
+    }
+    .link_social:hover {
+        color: orange ;
+    }
+}
